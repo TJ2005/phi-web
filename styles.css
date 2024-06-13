@@ -1,0 +1,26 @@
+.heading{
+    font-family:"space grotesk", sans-serif;
+    font-size:90px;
+    padding:150px;
+    margin-top:100px;
+    h1{
+        font-weight:700;
+    }
+    p{
+        margin-top:-150px;
+        font-weight:300;
+    }
+}
+body {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
